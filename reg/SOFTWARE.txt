@@ -1,0 +1,37 @@
+SOFTWARE
+    Microsoft
+        Windows
+            CurrentVersion
+                ProgramFilesDir = X:\Program Files
+                CommonFilesDir = X:\Program Files\Common Files
+                ProgramFilesDir (x86) = X:\Program Files (x86)
+                CommonFilesDir (x86) = X:\Program Files (x86)\Common Files
+                Component Based Servicing
+                    ProcessorArchitecture = REG_DWORD 0x00000009
+                    EnableLog = REG_DWORD 0x00000001
+                    BuildBranch = BuildBranchMacro
+                    FeatureCategory = e104dd76-2895-41c4-9eb5-c483a61e9427
+                    RepairCategory = 631f8288-2457-41f4-bb81-63df924ba94c
+                    Version
+                Policies
+                Setup
+                    State
+                        ImageState = IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE
+                    ImageServicingData
+                        ImageState = IMAGE_STATE_GENERALIZE_RESEAL_TO_OOBE
+                    PnpLockdownFiles
+                    PnpResources
+                    Sysprep
+                SideBySide
+                    Configuration
+                    IsolatedSxSAssemblies
+                    Winners
+                SMI
+                    WinSxS Settings
+        Windows NT
+            CurrentVersion
+                SystemRoot = X:\Windows
+                ProfileList
+                    Default = REG_EXPAND_SZ %SystemDrive%\Users\Default
+                    ProfilesDirectory = REG_EXPAND_SZ %SystemDrive%\Users
+                    ProgramData = REG_EXPAND_SZ %SystemDrive%\ProgramData

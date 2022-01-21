@@ -1,0 +1,13 @@
+COMPONENTS
+    StoreFormatVersion = REG_BINARY 0x0000000e 0x002e0030 0x002e0030 0x002e0030 0x00000036
+    StoreArchitecture = REG_BINARY 0x00000004 0x00000009
+    CanonicalData
+        Catalogs
+        Deployments
+    DerivedData
+        Components
+        TransformSettingsVersion
+        VersionedIndex
+    Installers
+    NonCanonicalData
+    ServicingStackVersions

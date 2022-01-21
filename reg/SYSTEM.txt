@@ -1,0 +1,19 @@
+SYSTEM
+    ControlSet001
+        Control
+            Session Manager
+            Winlogon
+                Notifications
+                    Components
+                        TrustedInstaller
+                            Friendly Name = Windows Modules Installer
+                            ServiceName = TrustedInstaller
+        Services
+            TrustedInstaller
+    Select
+        Current = REG_DWORD 0x00000001
+    Setup
+        Status
+            SysprepStatus
+                GeneralizationState = REG_DWORD 0x00000004
+    WPA
